@@ -41,3 +41,10 @@ Puis je reclique dessus pour accèder à la video
 L'affichage de la vidéo ne marche pas sur un émulateur. 
 Cependant j'ai effectué le test sur mon propre mobile en compilant l'application en pka sous api 23 pour qu'elle soit fonctionnelle avec mon téléphone, voici le résultat : 
 
+![](http://i.imgur.com/FJX4sxO.png)
+
+![](http://i.imgur.com/aut5P3v.png)
+
+![](http://i.imgur.com/9g2I5yH.png)
+
+Deux .pka sont présent dans le repertoire, le api25 corresponds à un sdk 25, et une version android de 7.0.1, le 23 correspond à une version android de 6.0.0 voir 6.0.1 

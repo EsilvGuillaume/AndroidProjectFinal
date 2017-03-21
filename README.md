@@ -1,4 +1,6 @@
 # AndroidProjectFinal
+AMBROISE GUILLAUME
+IBO 1
 
 ##Part 1 Fonctionnement
 

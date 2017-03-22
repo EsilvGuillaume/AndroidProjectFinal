@@ -26,5 +26,7 @@
         android:layout_marginBottom="175dp"
         android:id="@+id/buttonLauncher"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold" />
 </RelativeLayout>

@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:weightSum="1">
 
     <TextView
@@ -19,7 +19,7 @@
         android:id="@+id/titleView"
         android:layout_weight="0.09"
         android:textAlignment="viewStart"
-        android:textStyle="normal|bold"
+        android:textStyle="normal|italic"
         android:textColor="@android:color/holo_blue_dark" />
 
     <TextView
@@ -34,8 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/IdView"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|italic" />
 
     <TextView
         android:text="Author :"
@@ -50,9 +50,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/authorView"
         android:layout_weight="0.05"
-        android:textStyle="normal|bold"
         android:textAlignment="viewStart"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|italic" />
 
     <TextView
         android:text="Date :"
@@ -68,8 +68,8 @@
         android:id="@+id/dateView"
         android:layout_weight="0.06"
         android:textAlignment="viewStart"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|italic" />
 
     <TextView
         android:text="Describe :"
@@ -83,7 +83,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/descriptionView"
-        android:layout_weight="0.53"
+        android:layout_weight="0.33"
         android:textStyle="normal|italic"
         android:textAlignment="textStart"
         android:textColor="@android:color/holo_blue_dark" />
@@ -94,7 +94,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
         android:textStyle="normal|bold|italic"
-        android:textSize="18sp" />
+        android:textSize="16sp"
+        android:textAlignment="center" />
 
     <ImageView
         android:layout_width="match_parent"
